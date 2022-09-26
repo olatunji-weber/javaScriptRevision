@@ -14,7 +14,7 @@
 // console.log(`${num1} raised to the power of ${num2} is: ${power}`);
 
 class Person{
-    construstor(firstName, lastName, dob){
+    constructor(firstName, lastName, dob){
         this.firstName = firstName;
         this.lastName = lastName;
         this.dob = new Date(dob);
